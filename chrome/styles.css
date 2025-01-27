@@ -1,0 +1,124 @@
+input#edit-search-pattern {
+    padding-left: 35px;
+}
+.uclouvain-minisearch form #edit-submit {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    background-color: white !important;
+    padding: 10px 10px 10px 15px !important;
+    color: black !important;
+    border-radius: 64px !important;
+    align-self: center;
+    vertical-align: middle;
+}
+.header-desktop-main__logo {
+    width: 150px !important;
+}
+.header-desktop-main__navigation {
+    padding: unset !important;
+}
+.header-desktop-main__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+body {
+    background: hsl(215, 100%, 2%) !important;
+}
+.sub-navigation__head a {
+    color: white !important;
+}
+.dashboard-event-item a, .dashboard-news-item a {
+    color: white !important;
+}
+.row.d-flex.flex-row.p-2.mr-1 {
+    flex-direction: column !important;
+    display: flex !important;
+}
+.col-12 section > div:first-child {
+    display: flex !important;
+    flex-direction: row;
+    width: 100%;
+}
+.col.col-12.col-lg-4 {
+    width: 100% !important;
+}
+.row.d-flex.flex-row.p-2.mr-1 {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.container-fluid {
+    padding: 0 !important;
+}
+.row.widgets.row-cols-1.row-cols-md-2.row-cols-lg-4.p-3 {
+    padding: 0 !important;
+    width: 100%;
+    margin: 0 !important;
+    margin-top: 10px;
+}
+.widget-actions {
+    background: #000b1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.uclouvain-widget-button.widget-button-preconfigured .fontawesome-icon i {
+    color: #0074bd !important;
+}
+.text-center.my-3 {
+    color: #0074bd !important;
+    font-weight: 300 !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.widget_box.h-100.mbsc {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+.uclouvain-widget-button.widget-button-preconfigured {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.col.col-12.col-lg-4 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+div#block-ucl-dashboard-widgets {
+    flex: 3 !important;
+}
+div#block-ucl-dashboard-news {
+    flex: 1 !important;
+}
+.uclouvain-widget-links div:not(:last-child) a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: #000b1c;
+    color: #ffffff;
+}
+.uclouvain-widget-links div a {
+    color: white !important;
+}
+.uclouvain-widget-links {
+    padding: 0;
+}
+#dashboard-tab-content .col-12 {
+    padding: 8px;
+    border-radius: 16px;
+    background: #000b1c;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}

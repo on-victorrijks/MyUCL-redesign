@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "MyUCL redesign",
+    "version": "1.0",
+    "description": "Redesign MyUCL",
+    "permissions": ["scripting"],
+    "host_permissions": [
+      "https://uclouvain.be/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://*.uclouvain.be/*"],
+          "js": ["script.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["styles.css"],
+          "matches": ["https://*.uclouvain.be/*"]
+        }
+    ]
+  }
